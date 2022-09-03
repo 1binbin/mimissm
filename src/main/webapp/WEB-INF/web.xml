@@ -35,7 +35,7 @@
         </init-param>
     </servlet>
     <servlet-mapping>
-<!--        当访问 /admin/login 拦截/admin/login.action 交给Tomcat处理-->
+        <!--        当访问 /admin/login 拦截/admin/login.action 交给Tomcat处理-->
         <servlet-name>sprigMVC</servlet-name>
         <url-pattern>*.action</url-pattern>
     </servlet-mapping>
